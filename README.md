@@ -8,4 +8,4 @@ There are currently 3 projects in the repository.
 - [spinners](https://github.com/oniani/arduino-stuff/tree/master/spinners) - Automation
 - [star-wars](https://github.com/oniani/arduino-stuff/tree/master/star_wars) - Star Wars!!
 
-Images of the setup are available in corresponding directories.
+Images of the hardware setup(s) are available in corresponding directories.
