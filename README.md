@@ -1,4 +1,4 @@
-# arduino-stuff
+# Arduino Stuff
 
 This repository contains some of the Arduino projects I have worked on over time.
 
