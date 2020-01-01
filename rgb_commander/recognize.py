@@ -5,12 +5,12 @@ Authors: David Oniani, Thomas Twiton, Mason Donnohue
 Created: May 12, 2019
 
 Dependencies: PyAudio, PySpeech, PySerial
+
+NOTE: In this file, GSL stands for Google Speech Recognition.
 """
 
 import time
-
 import serial
-
 import speech_recognition as sr
 
 
@@ -37,7 +37,7 @@ def main() -> None:
         recognized_word = recorder.recognize_google(audio)
 
     except sr.UnknownValueError:
-        print("Google Speech Recognition could not understand audio")
+        print("GSR could not understand the audio message")
 
     except sr.RequestError as req_e:
         print(f"Cannot get results from GSR service, {req_e}")
