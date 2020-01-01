@@ -100,3 +100,7 @@ def main() -> None:
 
     else:
         print(f"Command {recognized_word} is unknown!")
+
+
+if __name__ == "__main__":
+    main()
