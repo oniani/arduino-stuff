@@ -143,10 +143,10 @@ void loop()
    * The commands are rather random characters and do not specifically
    * reflect anything from the real world applications of these motors.
    *
-   * NOTE: Commands 'a' and 'd' which prompt the system to do the force-activation
-   * and force-deactivation (respectively) of both of the motors do not make both motors
-   * work at the same time. Simultaneous motion is not possible without having more
-   * than one arduino board.
+   * NOTE: Commands 'a' and 'd' which prompt the system to do the
+   * force-activation and force-deactivation (respectively) of both of the
+   * motors do not make both motors work at the same time. Simultaneous motion
+   * is not possible without having more than one arduino board.
    */
 
   switch(command) {

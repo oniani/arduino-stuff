@@ -34,7 +34,7 @@ const int aH = 880;
 
 const int buzzerPin = 8; // Digital Pin 8
 const int ledPin1 = 12;  // Digital Pin 12
-const int ledPin2 = 13;  // Digital Pin 13 Built In Led can Change it if you want
+const int ledPin2 = 13;  // Digital Pin 13 (built-in led can be changed)
 
 int counter = 0;
 const char text[500] = "Turmoil has engulfed the Galactic Republic. The taxation of trade routes to outlying star systems is in dispute. Hoping to resolve the matter with a blockade of deadly battleships, the greedy Trade Federation has stopped all shipping to the small planet of Naboo. While the Congress of the public endlessly debates this alarming chain of events, the Supreme Chancellor has secretly dispatched two Jedi Knights, the guardians of peace and justice in the galaxy, to settle the conflict...              ";
