@@ -33,7 +33,6 @@ Stepper stepper_motor(200, IN1_PIN, IN2_PIN, IN3_PIN, IN4_PIN);
 Servo servo_motor;
 dht DHT;
 
-
 // Setup
 void setup()
 {
@@ -54,7 +53,6 @@ void setup()
   int chk = DHT.read11(DHT11_PIN);
 }
 
-
 // Display the current temperature and humidity
 void environment_info()
 {
@@ -66,14 +64,12 @@ void environment_info()
   Serial.print("%\n");
 }
 
-
 // Stepper activation function
 void stepper_activate()
 {
   Serial.println("The stepper motor has been activated!");
   stepper_activation_status = true;
 }
-
 
 // Stepper deactivation function
 void stepper_deactivate()
@@ -82,7 +78,6 @@ void stepper_deactivate()
   stepper_activation_status = false;
 }
 
-
 // Servo activation function
 void servo_activate()
 {
@@ -90,14 +85,12 @@ void servo_activate()
   servo_activation_status = true;
 }
 
-
 // Servo deactivation function
 void servo_deactivate()
 {
   Serial.println("The servo motor has been deactivated.");
   servo_activation_status = false;
 }
-
 
 // One complete sweep with the servo motor
 void servo_sweep()
@@ -112,7 +105,6 @@ void servo_sweep()
       delay(15);
     }
 }
-
 
 // Main loop
 void loop()
